@@ -1,0 +1,106 @@
+
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+body{
+    background-color:grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arimo',sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.container{
+        width: 80%;
+        height: 120%;
+        margin: 0 auto;
+        padding: 0;
+}
+
+/**
+    Account Registration and Login
+**/
+.box,
+.regbox{
+    width: 350px;
+    height: 530px;
+    background: #2f3542;
+    margin: 0;
+    padding: 15px;
+    top: 55%;
+    left: 50%;
+    color:#fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.box h1{
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+.regbox a:hover{
+    color:blue;
+    
+}
+
+.regbox a {
+    text-decoration: none;
+    color: sandybrown;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.box input{
+    width:100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.box input[type="password"],
+.box input[type="password"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color:#fff;
+}
+.box input[type="text"],
+.box input[type="username"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 30px;
+    color:#fff;
+}
+
+.box input[type="email"],
+.box input[type="useremail"]{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 25px;
+    color:#fff;
+}
+
+.regbox input[type="submit"]{
+    display: block;
+    font-size:20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s ease-out;
+    background-color: orange;
+    color: whitesmoke;
+   
+}
